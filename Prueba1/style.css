@@ -1,0 +1,96 @@
+*{ 
+    box-sizing: border-box;
+    font-family:'Helvetica';
+    
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/back-image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav {
+    
+    background-color: hsla(0, 0%, 100%, 0.8);
+    width: 100vw;
+    padding: 1px 350px; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo1{
+    width: 190px;
+    height: 50px;
+}
+nav ul li{
+
+    display: inline-block;
+    padding: 5px 15px;
+
+}
+.LogInBtn{
+
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+.btn{
+    color: rgb(241, 250, 255);
+    text-decoration: none;
+    padding: 16px 20px;
+    background-image: linear-gradient(45deg,#df4881,#c430d7);
+    border-radius: 40px;
+    border-top-right-radius: 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    border-top-right-radius: 40px;
+
+}
+
+.content h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 50px 0px ;
+
+}
+
+.MakeNew{
+    
+    margin: 10px 0px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.content {
+    
+    margin: 30px 50x 150px;
+    max-width: 500px;
+    max-height: 600px;
+    padding: 280px 5px;
+    margin: 0px 0px;
+}
+.featureImg{
+
+width: 800px;
+margin: 30px 0px;
+transition: 0.5s;
+
+}
+
+.featureImg:hover{
+
+    width: 810px;
+}
